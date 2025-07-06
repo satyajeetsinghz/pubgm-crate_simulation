@@ -89,7 +89,7 @@ export default function CrateDropSimulator() {
             </div>
 
             {/* Main content container */}
-            <div className="relative z-10 w-full max-w-6xl flex flex-col lg:flex-row gap-6">
+            <div className="relative z-10 w-full max-w-6xl flex flex-col sm:flex-row gap-6">
                 {/* Left side - Item Preview (transparent) */}
                 <div className="w-full lg:w-[70%] flex flex-col items-center justify-center p-4 md:p-6">
                     <div className="w-full flex flex-col items-center justify-center min-h-[300px] md:min-h-[400px]">
@@ -121,13 +121,15 @@ export default function CrateDropSimulator() {
                 <div className="w-full lg:w-[30%] flex flex-col">
                     <div className="bg-black/70 backdrop-blur-sm p-4 border border-yellow-600/30 h-full">
                         <div className="flex justify-between items-center mb-3">
-                            <h2 className="text-base md:text-lg font-bold text-yellow-300 uppercase tracking-wider">Anniversary Crate</h2>
-                            <button
+                            <h2 className="">
+                                <img className='w-48' src="/images/items/Anniversary-Season6.png" alt="" />
+                            </h2>
+                            {/* <button
                                 onClick={changeGradient}
                                 className="px-2 py-1 bg-yellow-600/30 rounded text-xs hover:bg-yellow-600/50 transition text-yellow-200"
                             >
                                 Change Effect
-                            </button>
+                            </button> */}
                         </div>
 
                         {/* Crate Content Grid */}
@@ -205,13 +207,13 @@ export default function CrateDropSimulator() {
                             whileHover={{ scale: 1.02 }}
                             whileTap={{ scale: 0.98 }}
                             disabled={isOpening}
-                            className={`flex-1 py-2.5 font-bold text-white text-sm relative overflow-hidden ${isOpening ? 'bg-gray-500/80 cursor-not-allowed' : 'bg-blue-500 hover:bg-blue-400'
-                                } shadow-lg shadow-blue-500/20 flex items-center justify-center min-w-[120px]`}
+                            className={`flex-1 py-2.5 font-bold text-black text-sm relative overflow-hidden ${isOpening ? 'bg-gray-500/80 cursor-not-allowed' : 'bg-yellow-500 hover:bg-yellow-400'
+                                } shadow-lg shadow-yellow-500/20 flex items-center justify-center min-w-[120px]`}
                         >
                             <span className="relative z-10 flex items-center">
                                 <span className="mr-1.5"></span> Open with UC
                             </span>
-                            <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-300 opacity-0 hover:opacity-100 transition-opacity z-0"></div>
+                            <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-300 opacity-0 hover:opacity-100 transition-opacity z-0"></div>
                         </motion.button>
                     </div>
 
