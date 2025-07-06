@@ -4,7 +4,7 @@ export const crateItems = [
         rarity: 'Mythic',
         chance: 0.5,
         color: 'text-red-500',
-        bgColor: 'bg-gradient-to-br from-red-900 to-red-700',
+        bgColor: 'bg-gradient-to-b from-black via-red-900 to-red-800',
         borderColor: 'border-red-500',
         image: '/images/items/brilliant_anniversary_set.png',
         description: 'Exclusive anniversary set with glowing effects'
@@ -14,7 +14,7 @@ export const crateItems = [
         rarity: 'Mythic',
         chance: 0.5,
         color: 'text-red-500',
-        bgColor: 'bg-gradient-to-br from-red-900 to-red-700',
+        bgColor: 'bg-gradient-to-b from-black via-red-900 to-red-800',
         borderColor: 'border-red-500',
         image: '/images/items/brilliant_anniversary_headgear.png',
         description: 'Legendary headgear with special visual effects'
@@ -24,7 +24,7 @@ export const crateItems = [
         rarity: 'Legendary',
         chance: 3,
         color: 'text-pink-500',
-        bgColor: 'bg-gradient-to-br from-pink-900 to-pink-700',
+        bgColor: 'bg-gradient-to-b from-black via-pink-900 to-pink-800',
         borderColor: 'border-pink-500',
         image: '/images/items/brilliant_anniversary_backpack.png',
         description: 'Unique anniversary backpack design'
@@ -34,7 +34,7 @@ export const crateItems = [
         rarity: 'Legendary',
         chance: 10,
         color: 'text-pink-500',
-        bgColor: 'bg-gradient-to-br from-pink-900 to-pink-700',
+        bgColor: 'bg-gradient-to-b from-black via-pink-900 to-pink-800',
         borderColor: 'border-pink-500',
         image: '/images/items/retro_anniversary_set.png',
         description: 'Classic retro style outfit'
